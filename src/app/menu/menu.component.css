@@ -1,0 +1,27 @@
+.main{
+  float: left;
+  width: 20%;
+  padding: 0%;
+  background: #46A686;
+  position: fixed;
+  height: 95%;
+}
+
+.opcion {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#botones {
+  background: #318469;
+}
+
+a {
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+button {
+  background-color: #46A686;
+  color: #FFFFFF;
+}

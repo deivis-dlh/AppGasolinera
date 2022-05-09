@@ -1,0 +1,43 @@
+.VAcu{
+    border: black 1px solid;
+    float: right;
+    width: 82%;
+}
+.VAcu th,td{
+    border: black 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.fi{
+    margin-left: 300px;
+    
+}
+
+.fi th{
+    border: black 1px solid;
+    padding: 10px;  
+}
+.ff{
+    margin-left: 312px;
+    margin-bottom: 20px;
+    
+}
+.ff th{
+    border: black 1px solid;
+    padding: 10px;
+}
+
+div{
+    margin-right: 200px;
+    float: right;
+    margin-bottom: 100px;
+}
+div select{
+    
+    padding: 6px;
+}
+h2{
+    text-align: center;
+    margin-left: 150px;
+}
