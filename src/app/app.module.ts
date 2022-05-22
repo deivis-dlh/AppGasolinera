@@ -18,7 +18,7 @@ import { RegistroTurnoComponent } from './paginas/registro-turno/registro-turno.
 import { RegistroClienteComponent } from './paginas/registro-cliente/registro-cliente.component';
 
 const appRouts:Routes=[
-  {path:'', component:AppComponent},
+  {path:'', component:LoginComponent},
   {path:'productos', component:ConsultarProductosComponent},
   {path:'contactanos', component:ContactanosComponent},
   {path:'ventas-almacen', component:ConsultarVentasAlmacenComponent},
@@ -26,7 +26,8 @@ const appRouts:Routes=[
   {path:'registrar-producto', component:RegistrarProductosComponent},
   {path:'registrar-turno', component:RegistroTurnoComponent},
   {path:'registro-cliente', component:RegistroClienteComponent},
-  {path:'inicio', component:AppComponent}
+  {path:'inicio', component:AppComponent},
+  {path:'home', component:AppComponent}
 ];
 
 @NgModule({
@@ -42,4 +43,5 @@ const appRouts:Routes=[
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
