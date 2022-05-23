@@ -5,7 +5,7 @@ img {
 a {
     text-decoration: none;
     color: #FFFFFF;
-    margin: 20px;    
+    margin: 20px;
 }
 
 #botones {
@@ -17,4 +17,17 @@ a {
     top: 0;
     width: 100%;
     background-color: #46A686;
+}
+
+.cerrar {
+    text-indent: 5em;
+}
+
+.CerrarSesion:hover{
+    background-color: #318469;
+    border-radius: 10px;
+}
+
+.CerrarSesion {
+    padding: 10px;
 }
