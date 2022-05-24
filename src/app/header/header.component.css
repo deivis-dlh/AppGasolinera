@@ -31,3 +31,17 @@ a {
 .CerrarSesion {
     padding: 10px;
 }
+
+.inicio:hover{
+    background-color: #318469;
+    border-radius: 10px;
+}
+
+.inicio {
+    padding: 10px;
+}
+
+.titulo {
+    color: white;
+    margin-left: 10px;        
+}

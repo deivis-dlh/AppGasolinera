@@ -16,10 +16,9 @@ import { RegistroVentaComponent } from './paginas/registro-venta/registro-venta.
 import { RegistrarProductosComponent } from './paginas/registro-producto/registro-producto.component';
 import { RegistroTurnoComponent } from './paginas/registro-turno/registro-turno.component';
 import { RegistroClienteComponent } from './paginas/registro-cliente/registro-cliente.component';
-import { ImagenComponent } from './paginas/imagen/imagen.component';
 
 const appRouts:Routes=[
-  {path:'', component:LoginComponent},
+  {path:'', component:AppComponent},
   {path:'productos', component:ConsultarProductosComponent},
   {path:'contactanos', component:ContactanosComponent},
   {path:'ventas-almacen', component:ConsultarVentasAlmacenComponent},
@@ -27,13 +26,12 @@ const appRouts:Routes=[
   {path:'registrar-producto', component:RegistrarProductosComponent},
   {path:'registrar-turno', component:RegistroTurnoComponent},
   {path:'registro-cliente', component:RegistroClienteComponent},
-  {path:'inicio', component:AppComponent},
   {path:'home', component:AppComponent}
 ];
 
 @NgModule({
   declarations: [
-    AppComponent, MenuComponent, HeaderComponent, FooterComponent, LoginComponent, ConsultarProductosComponent, ConsultarVentasAlmacenComponent, ContactanosComponent, ImagenComponent
+    AppComponent, MenuComponent, HeaderComponent, FooterComponent, LoginComponent, ConsultarProductosComponent, ConsultarVentasAlmacenComponent, ContactanosComponent
   ],
   imports: [
     BrowserModule,
